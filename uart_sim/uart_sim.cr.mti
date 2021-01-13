@@ -5,13 +5,6 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 Top level modules:
 	baudrate_generator
 
-} {} {}} D:/prj/simv/uart_sim/rtl/uart_tx.v {1 {vlog -work work -vopt -stats=none D:/prj/simv/uart_sim/rtl/uart_tx.v
-Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
--- Compiling module uart_tx
-
-Top level modules:
-	uart_tx
-
 } {} {}} D:/prj/simv/uart_sim/rtl/gyj_uart_top.v {1 {vlog -work work -vopt -stats=none D:/prj/simv/uart_sim/rtl/gyj_uart_top.v
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 -- Compiling module gjy_uart_top
@@ -19,8 +12,12 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 Top level modules:
 	gjy_uart_top
 
-} {} {}} D:/prj/simv/uart_sim/uart_define.v {1 {vlog -work work -vopt -stats=none D:/prj/simv/uart_sim/uart_define.v
+} {} {}} D:/prj/simv/uart_sim/rtl/uart_tx.v {1 {vlog -work work -vopt -stats=none D:/prj/simv/uart_sim/rtl/uart_tx.v
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module uart_tx
+
+Top level modules:
+	uart_tx
 
 } {} {}} D:/prj/simv/uart_sim/rtl/uart_rx.v {1 {vlog -work work -vopt -stats=none D:/prj/simv/uart_sim/rtl/uart_rx.v
 Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
@@ -28,5 +25,15 @@ Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
 
 Top level modules:
 	uart_rx
+
+} {} {}} D:/prj/simv/uart_sim/uart_define.v {1 {vlog -work work -vopt -stats=none D:/prj/simv/uart_sim/uart_define.v
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+
+} {} {}} D:/prj/simv/uart_sim/rtl/uart_tb.v {1 {vlog -work work -vopt -stats=none D:/prj/simv/uart_sim/rtl/uart_tb.v
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module uart_tb
+
+Top level modules:
+	uart_tb
 
 } {} {}}
